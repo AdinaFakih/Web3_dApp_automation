@@ -1,0 +1,16 @@
+{
+    "watchForFileChanges": false,
+    "viewportWidth": 1400,
+    "viewportHeight": 700,
+    "env": {
+        "username": "admin",
+        "password": "A>a=bV]6rtQ\\T5*J",
+        "CY_METAMASK_LIB_SECRET_WORDS": "tooth rescue twice honey hamster type taxi leaf damp slim police other",
+        "PASSWORD": "Ad123///",
+        "CY_METAMASK_LIB_METAMASK_VERSION": "latest", 
+        "CY_METAMASK_LIB_NETWORK_NAME": "localhost",
+        "CY_METAMASK_LIB_RPC_URL=http": "//127.0.0.1:8545/", 
+        "CY_METAMASK_LIB_CHAIN_ID": "1337"
+      },
+    "chromeWebSecurity": true
+}
