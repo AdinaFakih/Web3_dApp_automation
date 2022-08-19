@@ -4,7 +4,8 @@
   },
   "dependencies": {
     "@synthetixio/synpress": "^1.2.0",
-    "env-cmd": "^10.1.0"
+    "env-cmd": "^10.1.0",
+    "latest-version": "^7.0.0"
   },
   "scripts": {
     "test": "env-cmd -f .env npx synpress run -cf synpress.json"

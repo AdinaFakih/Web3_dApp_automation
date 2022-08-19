@@ -7,8 +7,8 @@
     "videosFolder": "videos",
     "video": true,
     "chromeWebSecurity": true,
-    "viewportWidth": 1366,
-    "viewportHeight": 850,
+    "viewportWidth": 1440,
+    "viewportHeight": 900,
     "component": {
       "componentFolder": ".",
       "testFiles": "**/*spec.{js,jsx,ts,tsx}"
@@ -20,4 +20,4 @@
     "pageLoadTimeout": 90000,
     "requestTimeout": 90000,
     "supportFile": "tests/support/index.js"
-  }
+}
