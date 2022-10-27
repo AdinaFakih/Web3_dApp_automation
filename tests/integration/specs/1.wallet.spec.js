@@ -5,12 +5,13 @@ describe('Verify Unipilot Home Page', () => {
     });
 
     it("landing", () => {
-        cy.visit('/', {
-            auth: {
-              username: 'admin',
-              password: 'A>a=bV]6rtQ\\T5*J',
-            },
-        })
+        cy.visit('/')
+        // , {
+        //     auth: {
+        //       username: 'admin',
+        //       password: 'A>a=bV]6rtQ\\T5*J',
+        //     },
+        // })
     });
     
     it('Verify Unipilot logo is visible', () => {

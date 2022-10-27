@@ -2,7 +2,8 @@ import { defineConfig } from 'cypress';
 
 export default defineConfig({
   e2e: {
-    baseUrl: 'https://beta.unipilot.io/',
+    baseUrl: 'https://unipilot-dev.surge.sh/',
+    userAgent: "synpress",
     viewportWidth: 1440,
     viewportHeight: 900,
     setupNodeEvents(on, config) {
@@ -12,5 +13,6 @@ export default defineConfig({
       // Environment variables 
     },
     chromeWebSecurity: true,
+    supportFile: "cypress/support/index.js"
   }
 })

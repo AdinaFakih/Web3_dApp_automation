@@ -1,5 +1,5 @@
 {
-    "baseUrl": "https://beta.unipilot.io/",
+    "baseUrl": "https://unipilot-dev.surge.sh/",
     "userAgent": "synpress",
     "retries": { "runMode": 0, "openMode": 0 },
     "integrationFolder": "tests/integration/specs",
